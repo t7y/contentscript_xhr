@@ -11,7 +11,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["http://news.google.com/*"],
+      "matches": ["*://news.google.com/*"],
       "js" : ["contentscript.js"]
     }
   ]
